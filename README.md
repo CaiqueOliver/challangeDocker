@@ -18,7 +18,8 @@
 
 - Criar um health check no Docker para a aplicação na rota /healthz.
 
+## 4. Build and Run application
 
-docker build -t devopschallange .
+- docker build -t devopschallange .
 
-docker run -d -p 9555:9555 devopschallange
+- docker run -d -p 9555:9555 devopschallange
